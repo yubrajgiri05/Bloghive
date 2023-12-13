@@ -1,0 +1,143 @@
+.banner {
+    .banner-heading {
+        @include flex-center;
+
+        h1 {
+            color: #2A2A2A;
+            text-align: center;
+            font-family: Manrope;
+            font-size: 70px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 85px;
+
+            span {
+                color: $primary-color !important;
+            }
+        }
+
+        p {
+            color: #2A2A2A;
+            text-align: center;
+            font-family: Manrope;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            width: 55%;
+            padding-top: 18px;
+            padding-bottom: 35px;
+        }
+    }
+
+    .banner-carousel {
+        figure {
+            position: relative;
+            max-height: 500px;
+
+            &:after {
+                content: "";
+                background: rgba(0, 0, 0, 0.10) ;
+                
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+              
+              
+            }
+        }
+
+        .banner-carousel-text {
+            padding: 0px 6vw 0 4vw;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+
+
+            .carousel-text-heading {
+                padding-left: 20px;
+                position: relative;
+                padding-bottom: 15px;
+
+                span {
+                    color: #2445A8;
+                    text-align: justify;
+                    font-family: Manrope;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+
+                }
+
+                p {
+                    color: #2A2A2A;
+                    text-align: justify;
+                    font-family: Manrope;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    background-color: $primary-color;
+                    height: 90%;
+                    width: 2px;
+                    top: 0;
+                    left: 0;
+                }
+            }
+
+            .banner-icon {
+                color: #A0A0A0;
+                font-family: Manrope;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                padding-top: 40px;
+                position: relative;
+
+                &:before {
+                    @include absolute;
+                    height: 2px;
+                    width: 100%;
+                    background: #CECECE;
+                    top: 20px;
+                }
+            }
+        }
+        &:hover{
+            figure {
+                &:after {
+                    background: rgba(36, 69, 168, 0.30);
+                }
+            }
+        }
+    }
+}
+
+.trending{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    form{
+        .form-control{
+            border: 1px solid #A0A0A0 !important;
+        }
+        .form-control:focus {
+            background-color:white;
+            border-color: none;
+            outline: 0;
+            box-shadow:none !important;
+        }
+    }
+}

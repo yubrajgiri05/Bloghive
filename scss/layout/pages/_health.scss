@@ -1,0 +1,66 @@
+.health {
+
+    .main-heading,
+    .sub-heading {
+        span {
+            color: $health-color !important;
+        }
+
+        &:after {
+            background-color: $health-color !important;
+        }
+    }
+
+    .blog-post .blog-post-text .blog-text-heading span {
+        color: $health-color !important;
+    }
+
+    .blog-post .blog-post-text .blog-text-heading {
+        border-left: 3px solid $health-color !important;
+    }
+
+    .btn-background .primary-btn {
+        background-color: $health-color !important;
+    }
+
+    .category .d-flex:hover p,
+    i {
+        color: $health-color !important;
+    }
+
+    .footer-top .footer-logo {
+        color: $health-color;
+    }
+
+    .pagination {
+    
+        .page-item {
+            .page-link {
+                color: #696969 !important;
+                border: 1px solid #A0A0A0 !important;
+               
+    
+                &:hover {
+                    background-color: $health-color !important;
+                    color: white !important;
+            
+                }
+    
+                &:focus {
+                    &:hover {
+                        background-color: $health-color !important;
+                        color: white !important;
+                    }
+                  }
+            }
+        
+        }
+    
+        .active {
+            .page-link {
+                background: $health-color;
+                color: white !important;
+            }
+        }
+    }
+}

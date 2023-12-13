@@ -1,0 +1,172 @@
+.technology {
+
+    .main-heading,
+    .sub-heading {
+        span {
+            color: $technology-color !important;
+        }
+
+        &:after {
+            background-color: $technology-color !important;
+        }
+    }
+
+    .blog-post .blog-post-text .blog-text-heading span {
+        color: $technology-color !important;
+    }
+
+    .blog-post .blog-post-text .blog-text-heading {
+        border-left: 3px solid $technology-color !important;
+    }
+
+    .btn-background .primary-btn {
+        background-color: $technology-color !important;
+    }
+
+    .category .d-flex:hover p,
+    i {
+        color: $technology-color !important;
+    }
+
+    .footer-top .footer-logo {
+        color: $technology-color;
+    }
+
+    .pagination {
+    
+        .page-item {
+            .page-link {
+                color: #696969 !important;
+                border: 1px solid #A0A0A0 !important;
+               
+    
+                &:hover {
+                    background-color: $technology-color !important;
+                    color: white !important;
+            
+                }
+    
+                &:focus {
+                    &:hover {
+                        background-color: $technology-color !important;
+                        color: white !important;
+                    }
+                  }
+            }
+        
+        }
+    
+        .active {
+            .page-link {
+                background: $technology-color;
+                color: white !important;
+            }
+        }
+    }
+    .text-document-content {
+        a{
+            color: $technology-color !important;
+        }
+
+        .tableof-content {
+
+            .heading {
+                color: $technology-color !important;
+                font-weight: 700;
+            }
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: $technology-color !important;
+
+        }
+
+
+        ol {
+            li {
+
+                a {
+                    color: $technology-color !important;
+
+                    &:hover {
+                        text-decoration: underline !important;
+                    }
+                }
+
+            }
+        }
+
+        ul {
+
+            li {
+
+                a {
+                    color: $technology-color !important;
+
+                }
+            }
+        }
+
+        blockquote {
+            border-left: 8px solid $technology-color !important;
+
+            p {
+                color: $technology-color !important;
+
+            }
+
+        }
+
+        table {
+
+            thead {
+                background-color: $technology-color !important;
+
+                tr {
+                    th {
+                        background-color: $technology-color !important;
+                    }
+                }
+            }
+
+        }
+        .comment {
+            .comment-heading {
+    
+                &:after {
+                    background-color: $technology-color;
+                }
+            }
+        }
+    }
+    .form-element .primary-btn button {
+        background-color: $technology-color;
+    }
+    .blog-more {
+        .blog-more-card {
+            .blog-post-text {
+                .blog-text-heading {
+                    border-left: 3px solid $technology-color;
+
+                    span {
+                        color: $technology-color;
+                    }
+                }
+            }
+        }
+    }
+    .form-element {
+        .primary-btn {
+
+            button {
+                background-color: $technology-color;
+                border: 2px solid $technology-color ;
+            }
+        }
+    }
+}

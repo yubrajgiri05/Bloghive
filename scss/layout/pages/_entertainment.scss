@@ -1,0 +1,177 @@
+.entertainment {
+
+    .main-heading,
+    .sub-heading {
+        span {
+            color: $entertainment-color !important;
+        }
+
+        &:after {
+            background-color: $entertainment-color !important;
+        }
+    }
+
+    .blog-post .blog-post-text .blog-text-heading span {
+        color: $entertainment-color !important;
+    }
+
+    .blog-post .blog-post-text .blog-text-heading {
+        border-left: 3px solid $entertainment-color !important;
+    }
+
+    .btn-background .primary-btn {
+        background-color: $entertainment-color !important;
+    }
+
+    .category .d-flex:hover p,
+    i {
+        color: $entertainment-color !important;
+    }
+
+    .footer-top .footer-logo {
+        color: $entertainment-color;
+    }
+
+    .pagination {
+
+        .page-item {
+            .page-link {
+                color: #696969 !important;
+                border: 1px solid #A0A0A0 !important;
+
+
+                &:hover {
+                    background-color: $entertainment-color !important;
+                    color: white !important;
+
+                }
+
+                &:focus {
+                    &:hover {
+                        background-color: $entertainment-color !important;
+                        color: white !important;
+                    }
+                }
+            }
+
+        }
+
+        .active {
+            .page-link {
+                background: $entertainment-color;
+                color: white !important;
+            }
+        }
+    }
+
+    .text-document-content {
+        a {
+            color: $entertainment-color !important;
+        }
+
+        .tableof-content {
+
+            .heading {
+                color: $entertainment-color !important;
+                font-weight: 700;
+            }
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: $entertainment-color !important;
+
+        }
+
+
+        ol {
+            li {
+
+                a {
+                    color: $entertainment-color !important;
+
+                    &:hover {
+                        text-decoration: underline !important;
+                    }
+                }
+
+            }
+        }
+
+        ul {
+
+            li {
+
+                a {
+                    color: $entertainment-color !important;
+
+                }
+            }
+        }
+
+        blockquote {
+            border-left: 8px solid $entertainment-color !important;
+
+            p {
+                color: $entertainment-color !important;
+
+            }
+
+        }
+
+        table {
+
+            thead {
+                background-color: $entertainment-color !important;
+
+                tr {
+                    th {
+                        background-color: $entertainment-color !important;
+                    }
+                }
+            }
+
+        }
+
+        .comment {
+            .comment-heading {
+
+                &:after {
+                    background-color: $entertainment-color;
+                }
+            }
+        }
+    }
+
+    .form-element .primary-btn button {
+        background-color: $entertainment-color;
+    }
+
+    .blog-more {
+        .blog-more-card {
+            .blog-post-text {
+                .blog-text-heading {
+                    border-left: 3px solid $entertainment-color;
+
+                    span {
+                        color: $entertainment-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .form-element {
+        .primary-btn {
+
+            button {
+                background-color: $entertainment-color;
+                border: 2px solid $entertainment-color ;
+            }
+        }
+    }
+}

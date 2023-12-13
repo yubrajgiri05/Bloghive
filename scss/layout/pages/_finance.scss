@@ -1,0 +1,172 @@
+.finance{
+
+    .main-heading,
+    .sub-heading {
+        span {
+            color: $finance-color !important;
+        }
+
+        &:after {
+            background-color: $finance-color !important;
+        }
+    }
+
+    .blog-post .blog-post-text .blog-text-heading span {
+        color: $finance-color !important;
+    }
+
+    .blog-post .blog-post-text .blog-text-heading {
+        border-left: 3px solid $finance-color !important;
+    }
+
+    .btn-background .primary-btn {
+        background-color: $finance-color !important;
+    }
+
+    .category .d-flex:hover p,
+    i {
+        color: $finance-color !important;
+    }
+
+    .footer-top .footer-logo {
+        color: $finance-color;
+    }
+
+    .pagination {
+    
+        .page-item {
+            .page-link {
+                color: #696969 !important;
+                border: 1px solid #A0A0A0 !important;
+               
+    
+                &:hover {
+                    background-color: $finance-color !important;
+                    color: white !important;
+            
+                }
+    
+                &:focus {
+                    &:hover {
+                        background-color: $finance-color !important;
+                        color: white !important;
+                    }
+                  }
+            }
+        
+        }
+    
+        .active {
+            .page-link {
+                background: $finance-color;
+                color: white !important;
+            }
+        }
+    }
+    .text-document-content {
+        a{
+            color: $finance-color !important;
+        }
+
+        .tableof-content {
+
+            .heading {
+                color: $finance-color !important;
+                font-weight: 700;
+            }
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: $finance-color !important;
+
+        }
+
+
+        ol {
+            li {
+
+                a {
+                    color: $finance-color !important;
+
+                    &:hover {
+                        text-decoration: underline !important;
+                    }
+                }
+
+            }
+        }
+
+        ul {
+
+            li {
+
+                a {
+                    color: $finance-color !important;
+
+                }
+            }
+        }
+
+        blockquote {
+            border-left: 8px solid $finance-color !important;
+
+            p {
+                color: $finance-color !important;
+
+            }
+
+        }
+
+        table {
+
+            thead {
+                background-color: $finance-color !important;
+
+                tr {
+                    th {
+                        background-color: $finance-color !important;
+                    }
+                }
+            }
+
+        }
+        .comment {
+            .comment-heading {
+    
+                &:after {
+                    background-color: $finance-color;
+                }
+            }
+        }
+    }
+    .form-element .primary-btn button {
+        background-color: $finance-color;
+    }
+    .blog-more {
+        .blog-more-card {
+            .blog-post-text {
+                .blog-text-heading {
+                    border-left: 3px solid $finance-color;
+
+                    span {
+                        color: $finance-color;
+                    }
+                }
+            }
+        }
+    }
+    .form-element {
+        .primary-btn {
+
+            button {
+                background-color: $finance-color;
+                border: 2px solid $finance-color ;
+            }
+        }
+    }
+}

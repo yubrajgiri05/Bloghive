@@ -1,0 +1,13 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  @mixin absolute{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  

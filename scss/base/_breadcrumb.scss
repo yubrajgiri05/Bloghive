@@ -1,0 +1,49 @@
+.breadcrumb-section {
+    position: relative;
+    height: 200px !important;
+
+    figure {
+        height: 100% !important;
+        position: relative;
+
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.60);
+        }
+    }
+
+    .breadcrumb-all {
+        position: absolute;
+        z-index: 11;
+        top: 50%;
+        transform: translate(0,-50%);
+
+            .breadcrumb-heading {
+                color: #FEFEFE;
+                font-family: Manrope;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 40px;
+            }
+            .breadcrumb{
+               a, .breadcrumb-item{
+                    color: #FEFEFE;
+                    font-family: Manrope;
+                    font-size: 24Spx;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 40px;
+                }
+        }
+        .breadcrumb-item+.breadcrumb-item::before {
+             color: white !important; 
+        }
+    }
+}

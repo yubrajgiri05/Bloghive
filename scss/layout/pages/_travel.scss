@@ -1,0 +1,172 @@
+.travel{
+
+    .main-heading,
+    .sub-heading {
+        span {
+            color: $travel-color !important;
+        }
+
+        &:after {
+            background-color: $travel-color !important;
+        }
+    }
+
+    .blog-post .blog-post-text .blog-text-heading span {
+        color: $travel-color !important;
+    }
+
+    .blog-post .blog-post-text .blog-text-heading {
+        border-left: 3px solid $travel-color !important;
+    }
+
+    .btn-background .primary-btn {
+        background-color: $travel-color !important;
+    }
+
+    .category .d-flex:hover p,
+    i {
+        color: $travel-color !important;
+    }
+
+    .footer-top .footer-logo {
+        color: $travel-color;
+    }
+
+    .pagination {
+    
+        .page-item {
+            .page-link {
+                color: #696969 !important;
+                border: 1px solid #A0A0A0 !important;
+               
+    
+                &:hover {
+                    background-color: $travel-color !important;
+                    color: white !important;
+            
+                }
+    
+                &:focus {
+                    &:hover {
+                        background-color: $travel-color !important;
+                        color: white !important;
+                    }
+                  }
+            }
+        
+        }
+    
+        .active {
+            .page-link {
+                background: $travel-color;
+                color: white !important;
+            }
+        }
+    }
+    .text-document-content {
+        a{
+            color: $travel-color !important;
+        }
+
+        .tableof-content {
+
+            .heading {
+                color: $travel-color !important;
+                font-weight: 700;
+            }
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: $travel-color !important;
+
+        }
+
+
+        ol {
+            li {
+
+                a {
+                    color: $travel-color !important;
+
+                    &:hover {
+                        text-decoration: underline !important;
+                    }
+                }
+
+            }
+        }
+
+        ul {
+
+            li {
+
+                a {
+                    color: $travel-color !important;
+
+                }
+            }
+        }
+
+        blockquote {
+            border-left: 8px solid $travel-color !important;
+
+            p {
+                color: $travel-color !important;
+
+            }
+
+        }
+
+        table {
+
+            thead {
+                background-color: $travel-color !important;
+
+                tr {
+                    th {
+                        background-color: $travel-color !important;
+                    }
+                }
+            }
+
+        }
+        .comment {
+            .comment-heading {
+    
+                &:after {
+                    background-color: $travel-color;
+                }
+            }
+        }
+    }
+    .form-element .primary-btn button {
+        background-color: $travel-color;
+    }
+    .blog-more {
+        .blog-more-card {
+            .blog-post-text {
+                .blog-text-heading {
+                    border-left: 3px solid $travel-color;
+
+                    span {
+                        color: $travel-color;
+                    }
+                }
+            }
+        }
+    }
+    .form-element {
+        .primary-btn {
+
+            button {
+                background-color: $travel-color;
+                border: 2px solid $travel-color ;
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+.privacy {
+    .privacy-document-content {
+        p {
+            margin-bottom: 20px !important;
+            color: #444;
+            text-align: justify;
+            font-family: Manrope;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            margin-top: 20px;
+
+            a {
+                font-weight: 500;
+                font-style: italic;
+
+                &:hover {
+                    text-decoration: underline !important;
+                }
+            }
+
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: 600 !important;
+            margin: 20px 0px 20px 10px !important;
+            color: #444;
+            font-family: Manrope;
+
+        }
+        h1 {
+            font-size: 26px !important;
+            line-height: 30px !important;
+          }
+        
+          h2 {
+            font-size: 24px !important;
+            line-height: 26px !important;
+          }
+        
+          h3 {
+            font-size: 20px !important;
+            line-height: 24px !important;
+          }
+        
+          h4 {
+            font-size: 18px !important;
+            line-height: 22px !important;
+          }
+        
+          h5 {
+            font-size: 16px !important;
+            line-height: 20px !important;
+          }
+        
+          h6 {
+            font-size: 14px !important;
+            line-height: 18px !important;
+          }
+          ul{
+            padding-left: 8px !important;
+            margin: 15px 0px 15px 13px !important;
+            li{
+                font-family: "Open Sans", sans-serif;
+                color: #696969;
+                font-size: 16px;
+                display: list-item;
+                font-weight: 400;
+                line-height: 30px;
+            }
+          }
+          ol{
+            padding-left: 8px !important;
+            margin: 15px 0px 15px 13px !important;
+            li{
+                font-family: "Open Sans", sans-serif;
+                color: #696969;
+                font-size: 16px;
+                display: list-item;
+                font-weight: 400;
+                line-height: 30px;
+            }
+          }
+    }
+}

@@ -1,0 +1,47 @@
+.pagination {
+    display: flex;
+    margin-top: 50px !important;
+    justify-content: center !important;
+    --bs-pagination-hover-bg: none !important;
+    gap: 8px;
+
+    .page-item {
+        .page-link {
+            font-size: 16px;
+            padding: 7px 13px;
+            font-weight: 500;
+            line-height: 166.5%;
+            text-transform: capitalize;
+            text-align: center;
+            color: #696969 !important;
+            border-radius: 5px !important;
+            border: 1px solid #A0A0A0 !important;
+            @include flex-center;
+
+            &:hover {
+                background-color: $primary-color !important;
+                color: white !important;
+            }
+
+            &:focus {
+                z-index: 33;
+                background-color: white !important;
+                color: #696969 !important;
+                outline: 0;
+                box-shadow: none !important;
+                &:hover {
+                    background-color: $primary-color !important;
+                    color: white !important;
+                }
+              }
+        }
+    
+    }
+
+    .active {
+        .page-link {
+            background: $primary-color;
+            color: white !important;
+        }
+    }
+}

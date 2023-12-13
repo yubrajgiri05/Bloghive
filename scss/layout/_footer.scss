@@ -1,0 +1,97 @@
+footer {
+    .footer-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        border-bottom: 2px solid #9D9D9D;
+        padding-bottom: 36px;
+
+        .footer-logo {
+            color: $primary-color;
+            font-size: 36px;
+            font-weight: 600;
+        }
+
+        .footer-newsletter {
+            form {
+                .form-control {
+                    padding: 8px 10px;
+                    border: 1px solid #A0A0A0 !important;
+                }
+
+                .form-control:focus {
+                    background-color: white;
+                    border-color: none;
+                    outline: 0;
+                    box-shadow: none !important;
+                }
+            }
+        }
+
+    }
+
+    .footer-mid {
+        margin-top: 60px;
+        border-bottom: 2px solid #9D9D9D;
+        padding-bottom: 36px;
+
+        .footer-about {
+            color: #414141;
+            text-align: justify;
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 23px;
+            padding-top: 20px;
+            display: -webkit-box;
+            -webkit-line-clamp: 6;
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+
+        .blog-sidenav .d-flex figure {
+            width: 30%;
+            height: 72px !important;
+        }
+    }
+
+    .footer-bottom {
+
+        margin: 30px 0 20px 0;
+        display: flex;
+        justify-content: space-between;
+
+        .none {
+            color: white;
+        }
+
+        .created-by {
+            color: #414141 !important;
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: capitalize;
+            a{
+                font-weight: 600 !important;
+                color: #414141 !important;
+                &:hover{
+                    color: $primary-color;
+                }
+            }
+        }
+
+        .copy-right {
+            color: #414141;
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+    }
+}
